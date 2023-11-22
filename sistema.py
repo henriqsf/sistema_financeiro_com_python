@@ -71,7 +71,9 @@ def atualiza_registro(id: str, valor: float = None, tipo: str = None, taxa: floa
         registro_alvo["valor"] = valor
     if tipo is not None:
         if tipo == "investimento":
-            registro_alvo["valor"] += calculo_montante(registro_alvo, nova_data, taxa)
+            if registro_alvo["valor"] < 0:
+                registro_alvo["valor"] *= -1
+            registro_alvo["montante"] += calculo_montante(registro_alvo, nova_data, taxa)
         if tipo == "despesa" and registro_alvo["tipo"] != "despesa":
             registro_alvo["valor"] *= -1
         registro_alvo["tipo"] = tipo
