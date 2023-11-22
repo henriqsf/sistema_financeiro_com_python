@@ -1,0 +1,94 @@
+{
+    "registros": [
+        {
+            "id": "ed830562-65ec-43e5-ab40-198c760e545d",
+            "dia": 21,
+            "mes": 11,
+            "ano": 2023,
+            "tipo": "receita",
+            "valor": 562.0,
+            "montante": 0.0,
+            "taxa": 2.0
+        },
+        {
+            "id": "26fa2c95-4532-44fa-bf94-aa00b4d08369",
+            "dia": 21,
+            "mes": 11,
+            "ano": 2023,
+            "tipo": "despesa",
+            "valor": 120.0,
+            "montante": 0.0,
+            "taxa": 2.0
+        },
+        {
+            "id": "cc96cae6-11b3-403c-a953-31d34cdf2bd1",
+            "dia": 21,
+            "mes": 11,
+            "ano": 2023,
+            "tipo": "despesa",
+            "valor": -123.0,
+            "montante": 0,
+            "taxa": 2.0
+        },
+        {
+            "id": "8a52a194-8a67-4610-bbd4-ecbff4a75732",
+            "dia": 21,
+            "mes": 11,
+            "ano": 2023,
+            "tipo": "despesa",
+            "valor": 546.0,
+            "montante": 0,
+            "taxa": 2.0
+        },
+        {
+            "id": "54918c44-5740-4797-ae40-d49f6b976e1c",
+            "dia": 22,
+            "mes": 11,
+            "ano": 2023,
+            "tipo": "despesa",
+            "valor": -100.0,
+            "montante": 0.0,
+            "taxa": 2.0
+        },
+        {
+            "id": "51643442-29b3-423d-a312-b317015f3007",
+            "dia": 22,
+            "mes": 11,
+            "ano": 2023,
+            "tipo": "despesa",
+            "valor": -200.0,
+            "montante": 0.0,
+            "taxa": 2.0
+        },
+        {
+            "id": "293467f6-93ce-4d45-9813-83753b7eed4d",
+            "dia": 22,
+            "mes": 11,
+            "ano": 2023,
+            "tipo": "despesa",
+            "valor": 230.0,
+            "montante": 0.0,
+            "taxa": 2.0
+        },
+        {
+            "id": "64a34b8b-a5e4-4c45-b494-8ea3bc31a1c6",
+            "dia": 22,
+            "mes": 10,
+            "ano": 2023,
+            "tipo": "despesa",
+            "valor": 10000.0,
+            "montante": 10200.0,
+            "taxa": 2.0
+        },
+        {
+            "id": "f3a3bf77-1201-4091-981b-7e785412a385",
+            "dia": 22,
+            "mes": 11,
+            "ano": 2023,
+            "tipo": "investimento",
+            "valor": 1000.0,
+            "montante": 0.0,
+            "taxa": 200.0
+        }
+    ]
+}
