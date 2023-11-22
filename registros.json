@@ -11,26 +11,6 @@
             "taxa": 0.0
         },
         {
-            "id": "1329d8aa-17b0-4321-a189-34b63f79643b",
-            "dia": 22,
-            "mes": 11,
-            "ano": 2023,
-            "tipo": "despesa",
-            "valor": -456.0,
-            "montante": 0.0,
-            "taxa": 0.0
-        },
-        {
-            "id": "7825693b-cdbb-473a-99b2-071fc16a6f77",
-            "dia": 22,
-            "mes": 11,
-            "ano": 2023,
-            "tipo": "despesa",
-            "valor": -1000000.0,
-            "montante": 0.0,
-            "taxa": 5.0
-        },
-        {
             "id": "71ce96bb-eb74-42e7-9998-e213ead5fbfc",
             "dia": 22,
             "mes": 11,
@@ -39,6 +19,16 @@
             "valor": 2.0,
             "montante": 0.0,
             "taxa": 3.0
+        },
+        {
+            "id": "1329d8aa-17b0-4321-a189-34b63f79643b",
+            "dia": 22,
+            "mes": 11,
+            "ano": 2023,
+            "tipo": "investimento",
+            "valor": 456.0,
+            "montante": 456.0,
+            "taxa": 0.0
         }
     ]
 }

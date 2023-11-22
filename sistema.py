@@ -73,6 +73,7 @@ def atualiza_registro(id: str, valor: float = None, tipo: str = None, taxa: floa
         if tipo == "investimento":
             if registro_alvo["valor"] < 0:
                 registro_alvo["valor"] *= -1
+            registro_alvo["taxa"] = taxa
             registro_alvo["montante"] += calculo_montante(registro_alvo, nova_data, taxa)
         if tipo == "despesa" and registro_alvo["tipo"] != "despesa":
             registro_alvo["valor"] *= -1
@@ -117,12 +118,12 @@ def exportar_relatorio(formato: str = "json"):
     
     if formato == "csv":
         with open("relatorio.csv", "w") as arquivo_csv:
-            arquivo_csv.write("ID,Dia,Mes,Ano,Tipo,Valor,Montante\n")
+            arquivo_csv.write("ID,Dia,Mes,Ano,Tipo,Valor,Montante,Taxa\n")
             for registro in registros:
                 if registro['tipo'] == 'investimento':
                     nova_data = registra_data()
                     registro['montante'] = calculo_montante(registro, nova_data, registro['taxa'])
-                linha = f"{registro['id']},{registro['dia']},{registro['mes']},{registro['ano']},{registro['tipo']},{registro['valor']},{registro['montante']}\n"
+                linha = f"{registro['id']},{registro['dia']},{registro['mes']},{registro['ano']},{registro['tipo']},{registro['valor']},{registro['montante']},{registro['taxa']}\n"
                 arquivo_csv.write(linha)
     elif formato == "json":
         temp_registros = registros
